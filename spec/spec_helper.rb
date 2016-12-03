@@ -7,6 +7,6 @@ require 'purdytest'
 
 # VCR config
 VCR.configure do |c|
-  c.cassette_library_dir = 'fixtures/meetup_wrapper_cassettes'
+  c.cassette_library_dir = 'spec/vcr_cassettes'
   c.hook_into :webmock
 end

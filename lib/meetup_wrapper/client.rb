@@ -1,6 +1,10 @@
+require_relative "client/events"
+
 module MeetupWrapper
-
   class Client
-  end
+    include HTTParty
+    include MeetupWrapper::Client::Events
 
+    base_uri 'https://api.meetup.com'
+  end
 end
