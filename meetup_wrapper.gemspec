@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'meetup_wrapper'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2016-12-03'
   s.summary     = "Meetup Wrapper"
   s.description = "A simple wrapper around the Meetup API"

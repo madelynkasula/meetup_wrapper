@@ -12,5 +12,4 @@ describe MeetupWrapper::Client do
       client.base_uri.must_equal 'https://api.meetup.com'
     end
   end
-
 end

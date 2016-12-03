@@ -1,7 +1,6 @@
 require_relative '../../../spec_helper'
 
 describe MeetupWrapper::Client::Events do
-
   describe "event" do
     let(:client) { MeetupWrapper::Client.new }
     let(:response) { client.event("Girl-Develop-It-Chicago-IL", 233921596) }
@@ -22,5 +21,4 @@ describe MeetupWrapper::Client::Events do
       response["group"]["urlname"].must_equal "Girl-Develop-It-Chicago-IL"
     end
   end
-
 end
