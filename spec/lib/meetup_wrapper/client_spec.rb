@@ -8,7 +8,7 @@ describe MeetupWrapper::Client do
       client.must_include HTTParty
     end
 
-    it "must have the base url set to the Meetup API endpoint" do
+    it "must have base_uri set to the Meetup API endpoint" do
       client.base_uri.must_equal 'https://api.meetup.com'
     end
   end
